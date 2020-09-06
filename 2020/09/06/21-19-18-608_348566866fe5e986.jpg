@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<title>@robfitz | Figuring out early stage startups</title>
+
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<link rel="pingback" href="http://thestartuptoolkit.com/blog/xmlrpc.php" />
+
+<!-- Themnific Mobile & Special CSS -->
+<link href='http://fonts.googleapis.com/css?family=Lora:400,700italic|Source+Sans+Pro:400,700,900|Amatic+SC|Titillium+Web:400,900,700|Magra:400,700|Fjalla+One|BenchNine:700|Karla:700|Armata|Raleway:400,900,800,600,700,500,300,200,100|Stint+Ultra+Condensed|Merriweather|Arbutus+Slab|Open+Sans+Condensed:300|Archivo+Black|Carrois+Gothic|Patua+One|Questrial|Marvel:400,700|Gudea:400,700,400italic|Bitter:400,700,400italic|Passion+One:400,700|Jockey+One|Quicksand:400,300,700|Terminal+Dosis:400,800,300,600|Sansita+One|Changa+One|Paytone+One|Dorsa|Rochester|Bigshot+One|Open+Sans:300,400,600,700,800|Merienda+One|Six+Caps|Bevan|Oswald|Vidaloka|Droid+Sans|Josefin+Sans|Dancing+Script:400,700|Abel|Rokkitt|Droid+Serif' rel='stylesheet' type='text/css'/>
+<link rel="alternate" type="application/rss+xml" title="@robfitz &raquo; Feed" href="http://thestartuptoolkit.com/blog/feed/" />
+<link rel="alternate" type="application/rss+xml" title="@robfitz &raquo; Comments Feed" href="http://thestartuptoolkit.com/blog/comments/feed/" />
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-15909714-2']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel='stylesheet' id='style-css'  href='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/style.css?ver=3.7.31' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/styles/prettyPhoto.css?ver=3.7.31' type='text/css' media='all' />
+<link rel='stylesheet' id='style-custom-css'  href='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/style-custom.css?ver=3.7.31' type='text/css' media='all' />
+<link rel='stylesheet' id='social-media-css'  href='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/styles/social-media.css?ver=3.7.31' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome.min-css'  href='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/styles/font-awesome.min.css?ver=3.7.31' type='text/css' media='all' />
+<link rel='stylesheet' id='mobile-css'  href='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/styles/mobile.css?ver=3.7.31' type='text/css' media='all' />
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/js/css3-mediaqueries.js?ver=3.7.31'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://thestartuptoolkit.com/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://thestartuptoolkit.com/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.7.31" />
+<link rel="shortcut icon" href="http://thestartuptoolkit.com/blog/wp-content/uploads/rob-fav.png"/>
+<link rel="apple-touch-icon" href="http://thestartuptoolkit.com/blog/wp-content/uploads/rob-web-clip-57x.png"/>
+<!-- Themnific Shortcodes CSS -->
+<link href="http://thestartuptoolkit.com/blog/wp-content/themes/blogist/functions/css/shortcodes.css" rel="stylesheet" type="text/css" />
+
+<!-- Themnific Styling -->
+<style type="text/css">
+body,#footer,.body2,#serinfo-nav li.current{background-color:#f2f2f2}
+#navigation,#left_bg,.nav li ul{background-color:#fafafa}
+#content,#content_bg,.body3{background-color:#ffffff}
+a.mainbutton:hover,.taggs a:hover,.scrollTo_top,.overrating,a#navtrigger,.hrline span,.hrlineB span,.page-numbers.current,.imgwrap,.nav-next a,.nav-previous a,#submit,#comments .navigation a,.tagssingle a,.contact-form .submit{background-color:#F74F4F}
+.flex-direction-nav li a{background-color:#F74F4F !important}
+a.mainbutton,.taggs a{border-color:#F74F4F !important}
+a.mainbutton,.taggs a{color:#F74F4F !important}
+.body1 a, a:link, a:visited,#serinfo h4 a,.related li a {color:#000000}
+#header .widgetable a,#footer a,#sidebar a,.searchform input.s,.body2 a,#sidebar .meta,ul#serinfo-nav li a{color:#383838}
+.entry a,a:hover,.body1 a:hover,#serinfo a:hover,#homecontent h2 span a,.nav>li.current-cat>a,.nav>li.current_page_item>a {color:#db4848}
+.imagepost,.videopost,.imageformat{background-color:#db4848}
+#footer a:hover,#sidebar a:hover,.body2 a:hover,p.body2 a:hover{color:#575757!important}
+body{background-image:url(http://thestartuptoolkit.com/blog/wp-content/themes/blogist/images/bg/bg-dots1.png)}
+li.format-quote,#left_bg,#navigation,.widgetable,.nav>li>a,#headtop,#header ul.social-menu li,#main-nav,#main-nav>li,.pagination,input, textarea,input checkbox,input radio,select, file{border-color:#e6e6e6 !important}
+.hrline,.hrlineB{background-color:#e6e6e6}
+.searchformhead,.searchform input.s,.tagcloud a,#serpane3 a,#serinfo-nav li.current,#serinfo,.tab-post,.body2,#footer select,#footer .searchform input.s {border-color:#c7c7c7 !important}
+body,input, textarea,input checkbox,input radio,select, file {font:400 14px/1.9em "Droid Serif", serif;color:#363636}
+#main-nav a,.nav ul li a {color:#363636}
+#footer,#sidebar,.stuff,#footer select,.body2 {font:400 12px/2.2em "Droid Serif", serif;color:#333333}
+#footer h3,.stuff h2 a,.body2 h2,.body2 h3 {color:#333333}
+h1 {font:700 42px/1.1em "Vidaloka", serif;color:#1f1f1f}h2 {font:700 50px/1em "Vidaloka", serif;color:#1c1c1c}h2.widget,.ratingblock h2,.archivepost li h2,#tickerwarp span.lab,.searchformhead input.s {font:700 10px/1.2em "Open Sans", sans-serif;color:#000}h2.widget a {color:#000 !important}h3 {font:600 13px/1.5em "Open Sans", sans-serif;color:#1f1f1f}h4 {font:400 13px/1.5em "Open Sans", sans-serif;color:#5c5c5c}p.meta,p.meta a,a.mainbutton,.taggs a,h5,h6 {font:400 10px/1.5em "Source Sans Pro", sans-serif;color:#969696}#main-nav a,.ratingblock p {font:700 10px/1em "Source Sans Pro", sans-serif;color:#000}.tab-post small a,.taggs a,.ei-slider-thumbs li a {color:#363636}
+</style>
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+</head>
+
+     
+<body class="home blog">
+    
+<div class="container  absol"> 
+
+    
+    <a id="navtrigger" href="#">MENU</a>
+        
+    <nav id="navigation"> 
+    
+        <ul id="main-nav" class="nav custom-nav"><li id="menu-item-1871" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1871"><a href="http://thestartuptoolkit.com" >Latest posts</a></li>
+<li id="menu-item-1624" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1624"><a href="http://thestartuptoolkit.com/blog/series-and-topics/" >New? Start here!</a></li>
+<li id="menu-item-1598" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1598"><a href="http://robfitz.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://robfitz.com']);">About Robfitz</a></li>
+<li id="menu-item-1882" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1882"><a href="http://momtestbook.com?ref=stk" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://momtestbook.com?ref=stk']);">Book</a></li>
+<li id="menu-item-1599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1599"><a href="http://feeds.feedburner.com/TheStartupToolkit" onclick="javascript:_gaq.push(['_trackEvent','outbound-menu','http://feeds.feedburner.com/TheStartupToolkit']);">Get new posts by RSS or email</a></li>
+</ul>
+	                          
+    </nav>
+    
+	<div id="content_bg" class="container_shadow"></div>
+
+    <div id="header">
+    
+        <h1 class="absol">
+        
+                                        
+                <a href="http://thestartuptoolkit.com/blog/">
+                
+                    <img class="logo" src="http://thestartuptoolkit.com/blog/wp-content/uploads/stklogo1.png" alt="@robfitz"/>
+                        
+                </a>
+                    
+            	
+        
+        </h1>                
+        
+		<div class="widgetable">
+               	               	        </div>
+
+    </div> 
+
+ <div class="clearfix"></div>
+
+<div id="content">
+
+          <ul class="medpost">
+
+                						                                        
+                                
+						<li class="post-2324 post type-post status-publish format-standard hentry category-career-entrepreneurship category-funding-investment">
+
+		
+			            
+            <div class="clearfix"></div>
+
+			 
+                            
+                            	<img class="replacement" src="http://thestartuptoolkit.com/blog/wp-content/uploads/ricedogcropped2.jpg"> 
+                                
+							            
+			<div class="clearfix"></div>
+
+                
+	<p class="meta">
+		August 21, 2018 &bull; 
+		<a href="http://thestartuptoolkit.com/blog/category/career-entrepreneurship/" title="View all posts in Career Entrepreneurship" rel="category tag">Career Entrepreneurship</a>, <a href="http://thestartuptoolkit.com/blog/category/funding-investment/" title="View all posts in Funding &amp; investment" rel="category tag">Funding &amp; investment</a>  &bull;
+        <i class="fa fa-heart-o"></i>1772		    </p>
+
+            <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2018/08/calendar-time-vs-clock-time-aka-why-should-i-quit-my-job-is-a-bad-question/">Calendar time vs clock time (AKA why &#8220;should I quit my job?&#8221; is a bad question)</a></h2>
+
+    		<div class="entry">   
+
+				                
+                <p>You&#8217;re talented, driven, and trying to decide whether or not to quit your job to start a business. This seems like a good and important question with which to wrestle. But it&#8217;s not, because it&#8217;s phrased in a way which contains a massive and misleading assumption.</p>
+<p>Going full-time on your startup does two things:</p>
+<ol>
+<li>It gives you 8ish productive hours per day to invest in your new business</li>
+<li>It begins burning through your savings and runway</li>
+</ol>
+<p>Now, spending your savings is fine. After all, that&#8217;s why you saved it. But you want to ensure you&#8217;re spending it productively. And the &#8220;should I quit?&#8221; mentality prevents you from doing so.</p>
+<p>Starting a company involves two different types of work, which each require a different type of <em>time</em>.</p>
+<p>The first type of work is stuff like programming, writing documents, and designing products. In these cases, investing one extra hour yields one extra unit of progress[1]. When this is what&#8217;s holding you back, then you need as many hours as you can get and going full-time will make you faster, and thus more likely to succeed. This is called &#8220;clock time&#8221; because progress is directly related to the number of hours you can put in.</p>
+<p>The second type of work involves long, multi-day stretches of waiting. Imagine, for example, that you&#8217;ve been introduced to a potential customer and are waiting for them to respond (and then waiting for the scheduled meeting to arrive). You might also find yourself waiting on yourself while you make an important decision. Or waiting for enough data to come in from your latest website or marketing experiment. This is called &#8220;calendar time&#8221; because progress requires sitting back and waiting for the days to pass. For these tasks, sitting at your computer for an extra hour adds absolutely zero additional value.</p>
+<p>Quitting your job and going full-time is useful for &#8220;clock time&#8221; tasks, but not for &#8220;calendar time&#8221; tasks. And in the earliest stages of the business, the stuff you should be working on is more &#8220;calendar&#8221; than &#8220;clock&#8221;.</p>
+<p>The first steps in a new business generally shouldn&#8217;t involve sinking countless hours into writing code, writing documents, and designing logos. Instead, your very first steps are usually to understand your customers&#8217; lives/goals/problems, to talk to <a href="http://thestartuptoolkit.com/blog/2012/08/advisors-arent-pokemon-but-they-are-magical/"  target="_blank">industry experts</a>, and to decide <a title="Founder-model misfit" href="http://thestartuptoolkit.com/blog/2010/08/founder-model-misfit/"  target="_blank">whether the business</a> <a title="The coffeeshop fallacy" href="http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/"  target="_blank">fits your goals</a>. Or in other words, the early tasks in a new startup are more &#8220;calendar time&#8221; and less &#8220;clock time&#8221;. Which means that going full-time is a bit fruitless, since you don&#8217;t actually have a productive way to invest the extra hours.</p>
+<p>If you&#8217;ve got a job and want to start having a startup, then &#8220;should I quit&#8221; is the wrong question. Instead, ask yourself how you can make the most progress during your mornings and lunch break. You won&#8217;t be able to design and code a whole product, but you don&#8217;t need to just yet, since you probably wouldn&#8217;t be building the right thing anyway. And a lunch break is <em>plenty</em> of time to set up some conversations with potential customers to learn more about their problems and current behaviour.</p>
+<p>After talking to a few people, you may find that you need some product mockups (or whatever) to confirm that you&#8217;re heading in the right direction. That task might take a couple days (clock time), and it might be tough to find enough good hours alongside a full-time job. But instead of quitting, why not take some vacation days and use them to do enough of the work to reach the next stage in your conversations[2]? You&#8217;ll eventually reach a point in your conversations where, for example, a bunch of people are desperate to use (or even pay for) your product, but the product doesn&#8217;t yet exist. That&#8217;s a gap which can only be filled with more hours, and it&#8217;s a great reason to quit your job and take the leap.</p>
+<hr />
+<p>Can you now see the faulty assumption hidden within the innocent-seeming question of, &#8220;Should I quit my job to start a startup?&#8221;</p>
+<p>The assumption is that you need to be full-time in order to start doing anything at all on your startup. But you don&#8217;t. Many of the most important early-stage tasks won&#8217;t go any faster with 40 hours a week than they will with 4. Having the full 40 will simply cause you to sit at your desk and waste 36 on low-value activities which feel like work but which don&#8217;t actually move the needle. I&#8217;ve talked to aspiring (but doomed) founders who have spent 2 years at their job to save up 6 months of runway, and then wasted half of it doing stuff that they could have done on their lunch break. They soon notice that half their savings is gone and progress hasn&#8217;t been as significant as they would have hoped. The stress sets in, and from there it&#8217;s a vicious cycle until they decide that they&#8217;re &#8220;financially forced&#8221; to go back and get another job.</p>
+<p>So don&#8217;t ask yourself whether you should quit to start. Ask yourself how you can start right now, in spite of and alongside your other commitments. You can make more progress than you think with just a couple hours per week. And once you find yourself blocked by large &#8220;clock time&#8221; tasks, then take the leap with confidence, knowing that you&#8217;ve maximised your savings and made the most of your runway.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>[1] This assumes you aren&#8217;t burned out and that you are using the day&#8217;s <a title="Good hours" href="http://thestartuptoolkit.com/blog/2018/02/good-hours/"  target="_blank">good hours</a>. You get massively diminishing returns on the hours invested beyond the point of exhaustion.</p>
+<p>[2] Careful of your employer&#8217;s IP policy here. If they own everything you do, then you obviously need to limit your on-the-side tasks to talking, learning, and thinking.</p>
+ 
+                
+                <a class="mainbutton" href="http://thestartuptoolkit.com/blog/2018/08/calendar-time-vs-clock-time-aka-why-should-i-quit-my-job-is-a-bad-question/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-2292 post type-post status-publish format-standard hentry category-uncategorized">
+
+		
+			            
+            <div class="clearfix"></div>
+
+			 
+                            
+                            	<img class="replacement" src="http://thestartuptoolkit.com/blog/wp-content/uploads/ricedogcropped2.jpg"> 
+                                
+							            
+			<div class="clearfix"></div>
+
+                
+	<p class="meta">
+		February 6, 2018 &bull; 
+		<a href="http://thestartuptoolkit.com/blog/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>  &bull;
+        <i class="fa fa-heart-o"></i>570		    </p>
+
+            <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2018/02/good-hours/">Good hours</a></h2>
+
+    		<div class="entry">   
+
+				                
+                <p>Something that stood out in <a href="https://www.amazon.com/gp/aw/d/0307273601/ref=mp_s_a_1_1?ie=UTF8&amp;qid=1485313008&amp;sr=8-1&amp;pi=AC_SX236_SY340_FMwebp_QL65&amp;keywords=Daily+habits&amp;dpPl=1&amp;dpID=517lOS%2BzzmL&amp;ref=plSrch" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.amazon.com/gp/aw/d/0307273601/ref=mp_s_a_1_1?ie=UTF8&amp;qid=1485313008&amp;sr=8-1&amp;pi=AC_SX236_SY340_FMwebp_QL65&amp;keywords=Daily+habits&amp;dpPl=1&amp;dpID=517lOS%2BzzmL&amp;ref=plSrch']);" target="_blank">Daily Rituals</a> is how many of its creatives had a strong tendency toward using certain hours of the day. For myself, I can focus up until about lunchtime, and then any deep work goes out the window. So if I fritter away my mornings on meetings or messages or margaritas, I know won&#8217;t get any of my big creative task (programming, writing, whatever) done that day.</p>
+<p>The book&#8217;s stories obviously aren&#8217;t representative of the population at large, since it selected for folks who had, well, daily habits. But it shows that some notable people do have that tendency, and if you happen to be one of them (like me) you can probably benefit by putting it to use.</p>
+<p>The change for me was as simple as protecting my mornings. No interaction or interruption of any kind until after lunch. Email unchecked, phone still on airplane mode from the night before. For the brief periods when I had an office, I wouldn&#8217;t go in until lunchtime. On days when I couldn&#8217;t protect my mornings (like while traveling for conferences), I just accepted that those were non-creative days and didn&#8217;t expect to get any real work done.</p>
+<p>There&#8217;s a cost, of course. Sometimes people get grumpy that my &#8220;first thing&#8221;  is about 2pm (more like 3 or 4 really, since I obviously deserve a beer and a nap after doing my real work for the day). And I&#8217;ve experienced a rather high number of frosty morning stand-offs with ex-girlfriends who didn&#8217;t understand why I wanted to be left alone for the first couple hours of the day. But if the work matters&#8230;</p>
+<p>We&#8217;re spoilt for choice while we&#8217;re in good health and can pick from a full day&#8217;s menu of hours. Once our health goes&#8211;temporarily or permanently&#8211;the preciousness of a good hour&#8217;s worth of attention and energy becomes a bit too clear.</p>
+<p>Mornings work for me. If Cal Newport is right with his thesis in <a href="https://www.amazon.com/gp/aw/d/1455586692/ref=mp_s_a_1_1?ie=UTF8&amp;qid=1485312470&amp;sr=8-1&amp;pi=AC_SX236_SY340_FMwebp_QL65&amp;keywords=Deep+work&amp;dpPl=1&amp;dpID=51HsuPnTbrL&amp;ref=plSrch" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.amazon.com/gp/aw/d/1455586692/ref=mp_s_a_1_1?ie=UTF8&amp;qid=1485312470&amp;sr=8-1&amp;pi=AC_SX236_SY340_FMwebp_QL65&amp;keywords=Deep+work&amp;dpPl=1&amp;dpID=51HsuPnTbrL&amp;ref=plSrch']);" target="_blank">Deep Work</a>, then the first step in creating anything big is to carve out a safe chunk of uninterruptable time for it. Then again, some folk do it differently:</p>
+<p><img style="max-width: 100%;" alt="hunter_s_thompson_daily_routine_0" src="http://thestartuptoolkit.com/blog/wp-content/uploads/hunter_s_thompson_daily_routine_0.jpg" width="620" height="691" /></p>
+ 
+                
+                <a class="mainbutton" href="http://thestartuptoolkit.com/blog/2018/02/good-hours/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-2318 post type-post status-publish format-standard hentry category-uncategorized">
+
+		
+			            
+            <div class="clearfix"></div>
+
+			 
+                            
+                            	<img class="replacement" src="http://thestartuptoolkit.com/blog/wp-content/uploads/ricedogcropped2.jpg"> 
+                                
+							            
+			<div class="clearfix"></div>
+
+                
+	<p class="meta">
+		May 15, 2017 &bull; 
+		<a href="http://thestartuptoolkit.com/blog/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>  &bull;
+        <i class="fa fa-heart-o"></i>2211		    </p>
+
+            <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2017/05/unconditionals/">Unconditionals</a></h2>
+
+    		<div class="entry">   
+
+				                
+                <p>What&#8217;s the bit of your business you&#8217;d never give up? The reason you started it in the first place? The impact, the vision, the lifestyle, the invention, the team, or whatever else.</p>
+<p>That&#8217;s your unconditional. When you hit a wall and need to change what you&#8217;re doing, you pivot around <em>both</em> your learning <em>and</em> your unconditional. It&#8217;s no help to get stuck in spreadsheet-strategy-land and make abstract decisions that make sense on paper but tear out your heart.</p>
+<p>I started my first company to make playful creative toys for kids. We ended up building advertising tools for brands. It was a pivot that looked great on the spreadsheet but which, once made, gutted our passion. Our day-to-day feelings became dependent on externals (profits, traction, press) instead of internals (doing something we cared about). We kept going thanks to the momentum of obligation to each other and to our investors, but it was a different company. And not a company any of us would have considered starting.</p>
+<p>It&#8217;s okay to make sub-optimal decisions to protect your unconditional. Startups are made up of people and powered by excitement. The spreadsheet never tells the whole story. You started the company to make your life better, not worse; to enable your dreams, not deny them. In some cases this might even mean shutting down[1] (or at least handing off) a company that could still work, if it can&#8217;t work in the way you wanted it to.</p>
+<p>This sounds like a bit of a downer, but I don&#8217;t see it that way. I see it as permission to keep chasing some of the stuff you started this thing for, even when it isn&#8217;t what a robot would do. I don&#8217;t know if I&#8217;m correct, but I certainly <em>believe</em> that letting yourself get ground down and burned out is unproductive martyrdom. This is hedged with the fact that chasing your dreams 100% while ignoring all reality is also a terrible idea. But a path exists where you respect both sets of constraints.</p>
+<p>&nbsp;</p>
+<p>[1] This article is meant to be about strategic decisions more than about shutting down the company, but since we&#8217;re on the topic, I once got obliterated by an angry crowd in Latvia after saying something like this a few years back. They were angry because they thought that I was being cavalier with the fates of the employees who depended on me. But protecting your own values is not exclusive with protecting your people. As a founder, you&#8217;re in the best possible position to find every single employee a new position well in advance of shutting down. Imagine how elated another business owner is going to be when you call them and say, &#8220;Hey, I&#8217;ve got to shut down my company, but I&#8217;ve worked my socks off for the last few years building a kick-ass team. Can we meet for an hour so I can tell you about them and see if any would fit in with you guys?&#8221;</p>
+ 
+                
+                <a class="mainbutton" href="http://thestartuptoolkit.com/blog/2017/05/unconditionals/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-2308 post type-post status-publish format-standard hentry category-lean-meta category-lifestyle category-wealth">
+
+		
+			            
+            <div class="clearfix"></div>
+
+			 
+                            
+                            	<img class="replacement" src="http://thestartuptoolkit.com/blog/wp-content/uploads/ricedogcropped2.jpg"> 
+                                
+							            
+			<div class="clearfix"></div>
+
+                
+	<p class="meta">
+		February 3, 2017 &bull; 
+		<a href="http://thestartuptoolkit.com/blog/category/lean-meta/" title="View all posts in Lean startup meta" rel="category tag">Lean startup meta</a>, <a href="http://thestartuptoolkit.com/blog/category/lifestyle/" title="View all posts in Lifestyle" rel="category tag">Lifestyle</a>, <a href="http://thestartuptoolkit.com/blog/category/wealth/" title="View all posts in Wealth" rel="category tag">Wealth</a>  &bull;
+        <i class="fa fa-heart-o"></i>1597		    </p>
+
+            <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2017/02/high-stakes-learning/">High stakes learning</a></h2>
+
+    		<div class="entry">   
+
+				                
+                <p>I recently took a sailing course with 5 other people and they all came out of it worthless, whereas I learned to sail. We all had the same teacher and experiences. Why the different outcomes? Talking to them, each had an excuse as to why the course didn&#8217;t matter. One was just learning enough to accompany her son on his boat. One had a whole year to learn to sail, so this week was relatively unimportant. Another was taking a second course soon and figured he&#8217;d learn it all then. Whereas I figured that if I didn&#8217;t learn this stuff properly, I&#8217;d eventually be responsible for drowning a my friends.</p>
+<p>Give someone sitting in their garage a busted diesel engine and a manual, and they&#8217;ll say they can&#8217;t do it. But put them in the middle of a desert and you can bet they&#8217;ll figure it out. High stakes help learning[1].</p>
+<p>The reason this matters to you, the aspiring entrepreneur, is that you&#8217;ll occasionally find yourself in situations where the stakes are extremely high, but they don&#8217;t seem that way, because the result is far-off or abstracted away.</p>
+<p>The most common example is learning core skills like programming, sales, marketing, and English-language communication. But since there&#8217;s no immediate crisis, we focus on the tedium instead of on the fact that this could help us achieve our biggest goals (or that it could protect you if in a crazy situation like having your <a href="https://garrettdimon.com/2016/recurring-revenue-vs-disability-insurance/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://garrettdimon.com/2016/recurring-revenue-vs-disability-insurance/']);" target="_blank">leg cut off while your wife is pregnant</a>).</p>
+<p>We take university seriously because it seems important thanks to the easy feedback of grumpy vs. happy parents and a little number that tells us how well we&#8217;re doing. And we take jobs seriously for the same reason. But the whole point of the 60 years you spent doing school and job bullshit is to build a good life for yourself. Entrepreneurial skills are the shortcut to doing that, which means that apart from keeping you and yours safe and healthy, you could easily argue that learning them properly is the most important thing in your life.</p>
+<p>I&#8217;m not sure that me saying it or you reading it will help at all, because it&#8217;s still impossibly abstract until you&#8217;ve been saved by it. I was a shitty driver until I rolled off the highway in an accident that could have killed me and my passengers, and after that I was a very good driver, because I understood the stakes. Self-defense teachers are always trying to get their students to picture the life-or-death stakes instead of just going through the motions, but very few people spend the mental energy to do so. But after I&#8217;d been violently mugged a couple times, the stakes became very clear and learning got a whole lot easier.</p>
+<p>The entrepreneurial learning is tough because nobody holds a knife to your throat or sends your car flipping end-over-end down a hill at 60 miles per hour to help you internalise the point. But if you can manage to convince yourself that the stakes are high, even the most difficult parts of the slog will get a whole lot easier.</p>
+ 
+                
+                <a class="mainbutton" href="http://thestartuptoolkit.com/blog/2017/02/high-stakes-learning/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-2302 post type-post status-publish format-standard hentry category-lean-meta">
+
+		
+			            
+            <div class="clearfix"></div>
+
+			      
+           						<a href="http://thestartuptoolkit.com/blog/2017/02/the-business-part-of-social-lifestyle-businesses/" title="The business part of social &#038; lifestyle businesses" >
+           
+           							<img width="785" height="510" src="http://thestartuptoolkit.com/blog/wp-content/uploads/IMG_20170126_193838_495-785x510.jpg" class="main-single wp-post-image" alt="IMG_20170126_193838_495" />                
+           					</a>
+           
+      						            
+			<div class="clearfix"></div>
+
+                
+	<p class="meta">
+		February 1, 2017 &bull; 
+		<a href="http://thestartuptoolkit.com/blog/category/lean-meta/" title="View all posts in Lean startup meta" rel="category tag">Lean startup meta</a>  &bull;
+        <i class="fa fa-heart-o"></i>770		    </p>
+
+            <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2017/02/the-business-part-of-social-lifestyle-businesses/">The business part of social &#038; lifestyle businesses</a></h2>
+
+    		<div class="entry">   
+
+				                
+                <p>I&#8217;m sitting in an island hut in paradise, Thailand, listening to the owner yell at his staff (bamboo walls don&#8217;t block sound) that he needs to make more money or he&#8217;s going to have to close it all down and everyone loses their job. This is particularly worrying since the resort is fully booked. Seems like the business model math doesn&#8217;t work out. </p>
+<p>Just last night I&#8217;d overheard him talking to a buddy about how he was finally living the dream. Beautiful weather, beautiful views, palm fronds everywhere. He&#8217;d bought the place just 6 months ago, gotten it fixed up after a year of disuse, and this was his first season running it. But today, his staff is telling him to relax and he&#8217;s saying that he&#8217;ll relax in the off-season, but right now they&#8217;ve got to make some money[1]! </p>
+<p>It&#8217;s easy to forget that before you have a good social or lifestyle business, you&#8217;ve got to have a good business[2]. <strong>Running a failing lifestyle business is not fun. Running a failing social enterprise is not rewarding or meaningful.</strong> The most important part of any sort of business is that the business works. I&#8217;m not saying you should do something actively evil and profit-hungry and then try to slap a bandaid on it with paid vacation, ping-pong tables, and CSR. But within the constraints of doing something you believe in, the profitability does matter. A lot. </p>
+<p>Various government and non-profit projects suffer a common failure pattern where they&#8217;re supported by grants or donations, so they focus 100% on impact, and then when the funding dries up, they try to attach a revenue model to a project that was never built to support one. I don&#8217;t want to spoil the ending, but it&#8217;s not going to work. You can&#8217;t answer the lifestyle or the impact questions while ignoring the profitability one and expect it to just plug in later. You&#8217;ve got to develop them together. </p>
+<p>I used to teach a group of burned out bankers and lawyers about starting their first business. They&#8217;d been focused so hard on making money for so long that they now wanted to avoid it entirely and instead do something they cared about. That&#8217;s fine and even admirable. But the biggest mistake they made, by far, was obsessing over the lifestyle or impact to such an extent that they forgot about building something that worked, so they ended up getting nothing (except another job when they ran out of money).</p>
+<p>You <em>can</em> have it all, but you&#8217;ve got to embrace all the constraints. Lifestyle and culture and impact and industry (and all the other parts of a business) are constraints on the idea you pick and the way you run it. But that&#8217;s actually pretty helpful, since without a few good constraints the possibility space is just way too big. The most important one of all is profitability (or traction, if you&#8217;re in an investable area). Succeeding at that one gives you some time to massage the other parts of the business into place. Without it, all the other dreams are for naught. </p>
+<hr/>
+[1] You may be tempted to brush him off as a jerk, but I&#8217;ll ask you to believe me that he was in fact he was a super nice guy and, apart from that one outburst, treated both customers and staff extremely well. </p>
+<p>[2] A similar question is whether an amazing culture like <a href="https://www.google.com/search?q=valve+culture+handbook" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.google.com/search?q=valve+culture+handbook']);" target="_blank">Valve&#8217;s</a> <em>creates</em> success, or whether it&#8217;s the prize you get after becoming successful.</p>
+ 
+                
+                <a class="mainbutton" href="http://thestartuptoolkit.com/blog/2017/02/the-business-part-of-social-lifestyle-businesses/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-2278 post type-post status-publish format-standard hentry category-lean-meta">
+
+		
+			            
+            <div class="clearfix"></div>
+
+			 
+                            
+                            	<img class="replacement" src="http://thestartuptoolkit.com/blog/wp-content/uploads/ricedogcropped2.jpg"> 
+                                
+							            
+			<div class="clearfix"></div>
+
+                
+	<p class="meta">
+		January 30, 2017 &bull; 
+		<a href="http://thestartuptoolkit.com/blog/category/lean-meta/" title="View all posts in Lean startup meta" rel="category tag">Lean startup meta</a>  &bull;
+        <i class="fa fa-heart-o"></i>2195		    </p>
+
+            <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2017/01/losing-while-being-right-winning-while-being-wrong/">Losing while being right, winning while being wrong</a></h2>
+
+    		<div class="entry">   
+
+				                
+                <p>The fact that you won at russian roulette doesn&#8217;t mean playing it was a good decision. On the flip side, you can lose a hand of poker and still know you made the right call.</p>
+<p>In other words, <a href="http://thestartuptoolkit.com/blog/2017/01/accidental-charlatans/"  title="Accidental charlatans" target="_blank">wild success</a> does not justify idiotic behaviour and failure in the end does not invalidate a wise choice.</p>
+<p>Entrepreneurs are pretty good about making bold decisions with little information. The bit we get wrong is switching back into bureaucrat mode if it happens to turn out badly and beating ourselves up about it. <strong>If the decision was right with the information you had at the time, then it was the right decision, even if it didn&#8217;t work out.</strong> You don&#8217;t need to pay emotional penance for it.</p>
+<p>If you&#8217;re an engineer building bridges, any failure is a bad failure and is probably a sign of negligence. Bridge-building is a well defined space where the variables are known. But if you&#8217;re someone like an artist, failures are okay, because you&#8217;re not trying to reliably repeat what&#8217;s already known; you&#8217;re trying to create one masterpiece. Being a founder is more like being an artist than an engineer. Mistakes are supposed to happen, since you&#8217;re doing something new, and they&#8217;re also less important, since be wrong a thousand times as long as you&#8217;re eventually right once. An artist only needs one masterpiece to be remembered and a founder only needs one profitable product to change their life.</p>
+<p>Being wrong on big decisions still hurts, obviously, but you don&#8217;t need to add to that with self-flagellation. A couple years ago, I bet big on partnering with another company and they completely screwed me. My decision cost a huge portion of my company&#8217;s revenue and I wish it had gone differently, but I don&#8217;t regret it in because it was the right decision given what I knew at the time[2].</p>
+<p>You can make a counter-argument that you&#8217;re still responsible since you could have gathered more information to make a better decision. That only works in practice up to a point since there&#8217;s an opportunity cost to obsessing over one choice when an entrepreneur has dozens to deal with. Some friends, after raising their Series B, were taking forever to research and decide about their first big-money decision. The investor eventually said, &#8220;I don&#8217;t care what you do, but do it faster! You&#8217;re business isn&#8217;t moving while you&#8217;re debating this!&#8221; They were so focused on the obvious cost of being wrong that they were blind to the opportunity cost of having their attention taken up.</p>
+<p>Hold yourself accountable for making the best choices you can (that&#8217;s how you get better), but never demand of yourself that you&#8217;re always right. The only folks who are always right are the ones who never made a real decision.</p>
+<hr />
+<p>[1] Say we&#8217;ve got two poker players. They both face an 80% chance of losing the hand. The first guy stands to double his money, and he plays, and he wins. The second guy stands to 10x his money, and he plays, and he loses. Which one of them was right?</p>
+<p>The first guy won, but his bet was dumb, and he should know he made a dumb decision (even though it happened to work out). He had a 20% chance of 200% and an 80% chance of 0%, hence an overall return on his bet of 0.2*2.0=40%, which means if he bet $100 repeatedly, on average he could expect to lose $60 every time.</p>
+<p>The second guy (who lost) had a 20% chance of 1000% return and the same 80% odds of losing, so was looking at a 0.2*10.0=200% expected return. The reality of whether they won or lost does nothing in the slightest to chance the rightness or wrongness of their behaviour.</p>
+<p>Note that this math only applies if you get multiple chances to play the hand. If you&#8217;ve only got one shot then you&#8217;re focused on maximising odds of [any] success rather than on maximising expected return.</p>
+<p>[2] There was a great moment in High Stakes Poker (the show) where Phil Laak bets $10,000 on whether a coin will land heads or tails. But if he wins, he gets $10,050, so if you do the bet repeatedly, he would expect to earn $25 profit each time. Of course, he loses the flip and hands over his ten grand, and everyone laughs (in a good-natured way). But he&#8217;s smiling, and he goes, &#8220;I don&#8217;t know what you guys are laughing about, I just made $25.&#8221; In truth he&#8217;d just lost ten thousand, but he was comfortable with his decision because even though it didn&#8217;t work out, he still had confidence in the way he&#8217;d made it.</p>
+ 
+                
+                <a class="mainbutton" href="http://thestartuptoolkit.com/blog/2017/01/losing-while-being-right-winning-while-being-wrong/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-2262 post type-post status-publish format-standard hentry category-lean-meta">
+
+		
+			            
+            <div class="clearfix"></div>
+
+			 
+                            
+                            	<img class="replacement" src="http://thestartuptoolkit.com/blog/wp-content/uploads/ricedogcropped2.jpg"> 
+                                
+							            
+			<div class="clearfix"></div>
+
+                
+	<p class="meta">
+		January 27, 2017 &bull; 
+		<a href="http://thestartuptoolkit.com/blog/category/lean-meta/" title="View all posts in Lean startup meta" rel="category tag">Lean startup meta</a>  &bull;
+        <i class="fa fa-heart-o"></i>3921		    </p>
+
+            <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2017/01/accidental-charlatans/">Accidental charlatans</a></h2>
+
+    		<div class="entry">   
+
+				                
+                <p>A bug fell into my beer just now. I fished it out and moved on. But I&#8217;m sure from his perspective, that was the formative experience of his (or her, I didn&#8217;t check) life.</p>
+<p>He&#8217;ll return to his bug tribe as some sort of local celebrity. One of the rare few to taste the bread-water and live. I&#8217;m sure when he&#8217;s on bug talk radio he&#8217;s going to say something dumb like, &#8220;You&#8217;ve just got to believe in yourself and never give up no matter what[1]. That&#8217;s what I did, and look at me now.&#8221; And a bunch of other young bugs will get inspired and try their hand at drinking some beer and things will go really terribly for them. But this celebrity bug will still think he&#8217;s doing god&#8217;s work because from his thorough analysis of a sample size of 1, his twist of circumstance is indistinguishable from an act of will[2].</p>
+<p>To be clear, I&#8217;m <strong>not saying</strong> that everyone who succeeds got there only because of luck, or that skill is a non-factor, or that we should ignore the hard-won lessons learned by the rest of the community.</p>
+<p>What I am saying is that <strong>some non-zero portion</strong> of the people who appear to be extremely successful (and give us advice as such) are in fact completely full of shit. Critically, they are also unable to recognise that they are full of shit, so they give their advice sincerely. And since they believe what they say (even if they&#8217;re wrong), our bullshit filter fails us and we follow them too readily.</p>
+<p>A buddy of mine sold his first company to one of the silicon valley unicorns. Over celebratory drinks, he revealed that he&#8217;d been days away from going out of business. His salvation was that he&#8217;d gotten stuck between Rocket Internet and their US competitor as a pawn on their billion-dollar chessboard. While either one of those behemoths would have simply crushed him 1-on-1, once they were fighting each other, neither could allow the other to add his little business to the enemy side. End result? He got a great exit and is now part of the startup royalty who have sold a business; able to open any door and get any meeting. He&#8217;s been remarkably honest about telling people it was more circumstance than genius, but you can easily imagine that slightly less self-aware and humble (or slightly more inclined to make speaking fees) could cause a lot of damage by having an experience like that and then telling young founders to &#8220;just keep believing&#8221; no matter what is happening.</p>
+<hr/>
+[1] The reason &#8220;never give up&#8221; is bad advice Is that it increases both your odds of success and also your odds of going into crippling personal debt. While every successful company obviously didn&#8217;t give up, neither did all those folks who eventually wound up in bankruptcy court. Not giving up is a quality shared by the both the biggest winners and the biggest losers, but if you only look at the winners you&#8217;ll see a shared quality that seems to cause success. It&#8217;s the same fallacy as observing that happy parents have all had unprotected sex, so you start advising everyone to have unprotected sex at all times to increase their happiness. You&#8217;ve got to draw lessons from the whole population, not just the &#8220;winners&#8221;.</p>
+<p>[2] Seeing more successful data points actually muddies the waters even further. By looking at lots of folks who won a dangerous gamble (and not looking at the failures), you&#8217;ll become more confident without becoming more wise. Elite VCs are particularly vulnerable to making this mistake since they see tons of examples from a small, non-representatice subset of founders and then generalize from there to give advice to everyone else.</p>
+<p><a href="http://i.imgur.com/0NCKpcG.png" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://i.imgur.com/0NCKpcG.png']);" rel='prettyPhoto'><img class="alignnone size-large wp-image-2280" alt="0NCKpcG" src="http://thestartuptoolkit.com/blog/wp-content/uploads/0NCKpcG-428x1024.png" width="428" height="1024" /> </a></p>
+ 
+                
+                <a class="mainbutton" href="http://thestartuptoolkit.com/blog/2017/01/accidental-charlatans/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-2274 post type-post status-publish format-standard hentry category-listening category-talking">
+
+		
+			            
+            <div class="clearfix"></div>
+
+			 
+                            
+                            	<img class="replacement" src="http://thestartuptoolkit.com/blog/wp-content/uploads/ricedogcropped2.jpg"> 
+                                
+							            
+			<div class="clearfix"></div>
+
+                
+	<p class="meta">
+		January 25, 2017 &bull; 
+		<a href="http://thestartuptoolkit.com/blog/category/talking/listening/" title="View all posts in Listening" rel="category tag">Listening</a>, <a href="http://thestartuptoolkit.com/blog/category/talking/" title="View all posts in Talking about your startup" rel="category tag">Talking about your startup</a>  &bull;
+        <i class="fa fa-heart-o"></i>955		    </p>
+
+            <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2017/01/please-stop-doing-custdev-about-stuff-you-could-have-googled/">Please stop doing custdev about stuff you could have googled</a></h2>
+
+    		<div class="entry">   
+
+				                
+                <p>A founder wants to make better music education app. With so many potential instruments to teach, the founder decides to start with just one (this is right) and then decides to talk to customers to figure out exactly which to pick first (this is wrong).</p>
+<p>Talking to customers about this sort of question is a huge waste of time and is yet another customer development antipattern (see also <a title="The Novelty Anti-Pattern" href="http://thestartuptoolkit.com/blog/2010/07/the-novelty-anti-pattern/"  target="_blank">novelty</a>, <a title="Big Name Discovery Anti-Pattern" href="http://thestartuptoolkit.com/blog/2010/08/big-name-discovery-anti-pattern/"  target="_blank">big-name</a>, and <a title="Customer development antipattern: the meeting" href="http://thestartuptoolkit.com/blog/2011/10/customer-development-antipattern-the-meeting/"  target="_blank">meetings</a>).</p>
+<p>Say you talk to people to learn that lots want to learn guitar and a few, the flute. Great&#8230; You spent days on what would have taken 10 minutes of googling music education industry reports. This sort of customer conversation doesn&#8217;t add extra rigor, but just wastes extra time. It&#8217;s using a process as an excuse to avoid the scary work of putting your dreams on the line.</p>
+<p>In <a href="http://mybook.to/momtest" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://mybook.to/momtest']);" target="_blank">the mom test</a> I talk about scary questions, which are the ones whose answer can destroy your whole business. Asking a scary question is the point of customer conversations. It&#8217;s like going down on one knee and asking someone to marry you; the answer matters, might hurt, and is going to affect how you spend the next few years. If someone prefers to learn drums over bass, is that really going to rock (hah) your world? Hardly. If the answer doesn&#8217;t matter, then the question probably doesn&#8217;t either.</p>
+<p>But without asking customers to tell you, how will you know which instrument to teach first? Just pick either the easiest, the most popular, or the most fun (for you to work on), and start there. Your starting point doesn&#8217;t have to be optimal, it just has to be good enough to get you going. If you can&#8217;t make it work, then that&#8217;s something to pause and consider. And if/when you do get some traction, then you&#8217;ll expand into other verticals later anyway.</p>
+<p>So what are the scary questions here? When you&#8217;re selling to businesses, it&#8217;s usually stuff like,&#8221;Does the budget exist&#8221; and &#8220;If this is so important, why haven&#8217;t you done anything about it already?&#8221;</p>
+<p>For this consumer app, I&#8217;d probably press them about why they haven&#8217;t already done it. After all, there are approximately a bazillion youtube videos teaching you how to play anything you want.</p>
+<p style="padding-left: 30px;">&#8220;Have you ever thought about learning a musical instrument?&#8221; (not a question that&#8217;s going to give us any useful insight, it&#8217;s just to figure out whether we&#8217;re talking to someone in our customer segment or not)</p>
+<p style="padding-left: 30px;">&#8220;Have you tried learning already?&#8221;</p>
+<p style="padding-left: 30px;">If yes, &#8220;What did you try? How did you choose to do it that way? Why didn&#8217;t it work? Why did you stop? Why weren&#8217;t the youtube videos helpful for you? Why didn&#8217;t you hire a coach or go to a class? What did you look for that didn&#8217;t exist?&#8221;</p>
+<p style="padding-left: 30px;">If no, &#8220;Why not? Have you ever googled for free guides? Have you checked out all the youtube videos?&#8221;</p>
+<p style="padding-left: 30px;">And in either case: &#8220;Did you check the app store for any phone apps to help out? If not, why not? If so, what did you find? Why didn&#8217;t you use them? If you did use them, why did you stop?&#8221;</p>
+<p>What are all these questions getting at? They&#8217;re getting at the fact that consumers are lazy. They&#8217;ll talk a big game about how much they hate their email or hate travel planning, but then they&#8217;ll never even do a quick search to see if there&#8217;s a way to solve that daily frustration. And if there&#8217;s already a million solutions out there, and they aren&#8217;t motivated enough to use any of those, are they really going to magically get motivated as soon as yours hits the market?</p>
+<p>I don&#8217;t say this to be discouraging, because every successful app obviously overcomes this somehow. Maybe you&#8217;ve got a big product or marketing or business model insight that will change things. There are a million ways to have a breakthrough and make it work, but doing the same stuff that&#8217;s already out there and then hoping is not one of them. And going through the motions of asking people a bunch of unimportant questions doesn&#8217;t improve your chances.</p>
+<p><a href="http://swombat.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://swombat.com']);" target="_blank">Daniel Tenner&#8217;s</a> one-sentence summary of my <a href="http://momtestbook.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://momtestbook.com']);" target="_blank">book</a> was,<strong> &#8220;So you want to figure out what they&#8217;re already doing (or not doing) and why.&#8221;</strong> Looking at past behaviour (what they&#8217;re already doing) eliminates most of the optimistic biases that lead to so many broken new year&#8217;s resolutions (&#8220;I&#8217;m <em>definitely</em> going to learn to play guitar this year!&#8221;). And the &#8220;why&#8221; part is how you figure out their decision-making process. There&#8217;s some reason they are (or aren&#8217;t) already learning how to play music. If you want your app to become a part of their daily habits, you&#8217;d do well to understand that.</p>
+<p>Talking to customers is a hugely powerful tool, but you have to wield it correctly. Its value is in getting at the scary questions and helping you climb inside your customers&#8217; heads. If you&#8217;re using it to ask stuff you could have gotten from google, you&#8217;re just wasting everyone&#8217;s time.</p>
+<hr />
+<p>[PS] My issue with surveys is that because of their nature, they can pretty much <em>only</em> give you information that you could have googled. They give a false sense of security since you&#8217;re hearing from lots of people, but in almost every case the data is worthless, and lots of bad data isn&#8217;t an improvement.</p>
+ 
+                
+                <a class="mainbutton" href="http://thestartuptoolkit.com/blog/2017/01/please-stop-doing-custdev-about-stuff-you-could-have-googled/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-2264 post type-post status-publish format-standard hentry category-wealth">
+
+		
+			            
+            <div class="clearfix"></div>
+
+			 
+                            
+                            	<img class="replacement" src="http://thestartuptoolkit.com/blog/wp-content/uploads/ricedogcropped2.jpg"> 
+                                
+							            
+			<div class="clearfix"></div>
+
+                
+	<p class="meta">
+		January 23, 2017 &bull; 
+		<a href="http://thestartuptoolkit.com/blog/category/wealth/" title="View all posts in Wealth" rel="category tag">Wealth</a>  &bull;
+        <i class="fa fa-heart-o"></i>2112		    </p>
+
+            <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2017/01/non-traditional-exits-taking-money-off-the-table-startup-to-startup-mergers-business-processes-equity-swapping/">Non-traditional exits: taking money off the table, startup-to-startup mergers, business processes, equity swapping</a></h2>
+
+    		<div class="entry">   
+
+				                
+                <p>Startup success isn&#8217;t quite as binary as it first seems. Beyond the <a title="How founders get paid: non-strategic acquisitions, dividends, and private islands" href="http://thestartuptoolkit.com/blog/2014/09/how-founders-get-paid-non-strategic-acquisitions-dividends-and-private-islands/"  target="_blank">standard acquisitions</a>, plus the classic option of earning profits to pay dividends, you&#8217;ve got a couple other ways to get paid.</p>
+<p>As the business matures, founders are permitted (and even encouraged) to put some of the money they&#8217;re raising from investors into their pocket instead of into the business. It&#8217;s on the order of house money rather than retirement money, but that&#8217;s obviously still significant. Investors encourage it because they usually want to build the company for the biggest exit possible, and a founder worried about their personal finances isn&#8217;t the best at thinking long-term. Although it&#8217;s slightly counter-intuitive, a financially stable founder is generally <em>more</em> ambitious, not less. This is called &#8216;taking money off the table&#8217; and is now pretty common for Series B funding and beyond.</p>
+<p>You can also exit via merger with another startup. This isn&#8217;t terribly common, but the idea is that you combine forces (and customer bases) with someone who used to be a competitor. The new company often doesn&#8217;t need 2x the founders, so it&#8217;s an easy time for some of them to step away with the confidence that the most qualified person possible will be taking over from them. While there might be a bit of cash changing hands when you merge, you mostly won&#8217;t get paid until the combined business sells. Still, I&#8217;ve seen these mergers be a godsend for folks who were simply ready to do something different after running the same successful (but not yet ready to sell) startup for 8 or 10 years.</p>
+<p>Small business owners can exit their companies without even selling them by carefully building the processes and team to run everything without their involvement. This is the transition from &#8220;business operator&#8221; to &#8220;business owner&#8221; that <a href="https://www.amazon.com/gp/aw/d/0887307280/ref=dbs_a_w_dp_0887307280" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.amazon.com/gp/aw/d/0887307280/ref=dbs_a_w_dp_0887307280']);" target="_blank">The E-Myth Revisited</a> describes and navigates so expertly (you should read it if you&#8217;re doing any sort of people- or service-oriented business, or pretty much any SME). A counter-intuitive twist is that the more your business relies on geniuses (either genius employees or a genius founder), the harder it is to get away from. One of the strengths of McDonald&#8217;s (where I was this very morning drinking a milkshake that I&#8217;m starting to regret) is that they can reliably deliver their product via minimally trained high school dropouts. If a genius designer starts a design agency doing genius stuff, they can never really sell or step away from it because their product is too entangled with the founder&#8217;s own skills.</p>
+<p>Lastly, something I do myself is equity swapping. The idea is to get a group of founders who all respect each other, and you each swap a small percentage of your company with everyone else. This can be a fixed percentage (eg. we each pool 5%) or a fixed financial value (ie. we each pool 200k worth of equity). There are various ways to arrange the legals, but the idea is the same. Startup results are spiky (i.e. they&#8217;re usually either ridiculously good or zero) and can take a long time to happen. So you all share a bit of upside in case anyone becomes Facebook, and you all get exposed to a bit of upside as soon as anyone gets it, rather than waiting until you sell your particular company. Beyond the financials, I&#8217;ve found it really nice to have other people who are excited to help out on my projects (and vice versa with me for their projects), since we all benefit if any of them work. I&#8217;ve seen some people take their pool quite seriously (they treat it almost like a mini-VC fund that reviews pitches from applying startups) and others (like myself) who just do it contractually. But I do think it should be far more common than it is given how much more predictable it can make the startup career path.</p>
+<p>A bit off topic, but one of the issues with raising lots of money from VCs is that it narrows your options for exits. The longer you can stay bootstrapped, the more ways you have to get paid and move on to whatever&#8217;s next.</p>
+ 
+                
+                <a class="mainbutton" href="http://thestartuptoolkit.com/blog/2017/01/non-traditional-exits-taking-money-off-the-table-startup-to-startup-mergers-business-processes-equity-swapping/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					            
+						<li class="post-2265 post type-post status-publish format-standard hentry category-founders category-talking">
+
+		
+			            
+            <div class="clearfix"></div>
+
+			 
+                            
+                            	<img class="replacement" src="http://thestartuptoolkit.com/blog/wp-content/uploads/ricedogcropped2.jpg"> 
+                                
+							            
+			<div class="clearfix"></div>
+
+                
+	<p class="meta">
+		January 20, 2017 &bull; 
+		<a href="http://thestartuptoolkit.com/blog/category/founders/" title="View all posts in Founders" rel="category tag">Founders</a>, <a href="http://thestartuptoolkit.com/blog/category/talking/" title="View all posts in Talking about your startup" rel="category tag">Talking about your startup</a>  &bull;
+        <i class="fa fa-heart-o"></i>2155		    </p>
+
+            <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2017/01/half-built-houses/">Half-built houses and doing something people don&#8217;t get</a></h2>
+
+    		<div class="entry">   
+
+				                
+                <p>Some years ago, throughout the poorer parts of Grand Bahama, inland from the beaches and resorts, you&#8217;d pass scraggly plots of land featuring sad-looking, half-collapsed houses, all a jumble of bare cinderblock and rebar.</p>
+<p>At least, that&#8217;s what it looked like to me. But what&#8217;s actually happening is magical.</p>
+<p>At birth, each Bahamian citizen has rights to an empty plot of land. From then until they&#8217;re 18, instead of collecting knickknacks for their birthday, family and relatives give them building materials. Concrete. Cinderblocks. Rebar. 2 by 4s. And eventually, paint. It sits in a pile, dry beneath a tarp and apparently abandoned. But from when they&#8217;re old enough to start piling bricks, each year, after their birthday, they come out to their plot and add a bit to their future home. When they turn 18 and are ready to move out of their parent&#8217;s house, they move into a simple starter house they&#8217;ve built with their own hands.</p>
+<p>It&#8217;s the most amazing tradition[1]. It&#8217;s inspiring and wonderful. But before I understood what I was looking at, I thought I was seeing something sad and pitiful.</p>
+<p>I mention this because sometimes the people close to us see our startups-in-progress in the same misguided way. They don&#8217;t understand the process, so they can&#8217;t help but see a sad pile of stuff that&#8217;s<br />
+not-quite-a-company instead of seeing the foundations of something wonderful. They see a team size of two (counting yourself) working from your living room as a sign of failure or collapse rather than as a natural stage of growth every company passes through.</p>
+<p>In most cases, people not getting what we do is fine. If it&#8217;s a friend-but-not-really who you only cross paths with at someone else&#8217;s party, then you can just avoid talking to them about work and shrug off the occasional comment. But if it&#8217;s your very close family or friends, you might want their underestanding instead of just their sympathy. Otherwise, even if they&#8217;re trying to be supportive, it can end up feeling more like pity, which doesn&#8217;t exactly help. </p>
+<p>It&#8217;s lonely work to be putting everything you&#8217;ve got into something nobody understands. Having a few people close to you who really get it is important. That&#8217;s actually one of the main benefits of getting involved in the local startup community when you first start out. It&#8217;s less about the networking and more about finding a few trusted friends who can see what&#8217;s being built instead of just what&#8217;s missing.</p>
+<p>As for helping someone understand (parent, partner, close friend), it&#8217;s going to be hard. My had both started companies and I dragged my close friends into startup land alongside me, so I was fantastically lucky in that regard. But I&#8217;ve seen plenty of other founders draw a tougher lot and wind up with no understanding ears. If someone is keen to learn, maybe you can show them the real story, like someone did for me with the Bahamian houses. If they&#8217;ll read it, send them a copy of Jessica Livingstone&#8217;s excellent <a href="https://www.amazon.com/gp/aw/d/1430210788/ref=mp_s_a_1_1?ie=UTF8&#038;qid=1484919607&#038;sr=8-1&#038;pi=AC_SX236_SY340_FMwebp_QL65&#038;keywords=Founders+at+work&#038;dpPl=1&#038;dpID=511U1mpmVsL&#038;ref=plSrch" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.amazon.com/gp/aw/d/1430210788/ref=mp_s_a_1_1?ie=UTF8&amp;qid=1484919607&amp;sr=8-1&amp;pi=AC_SX236_SY340_FMwebp_QL65&amp;keywords=Founders+at+work&amp;dpPl=1&amp;dpID=511U1mpmVsL&amp;ref=plSrch']);" target="_blank">Founder&#8217;s at Work</a>. It does a great job of showing that every beautiful house has to start out as a pile of cinder blocks and cement at some point. It&#8217;s a stage, not a problem. We just normally aren&#8217;t lucky enough to see it being built.</p>
+<p>[1] I get the impression that the tradition is unfortunately dying out due to the realistic dangers of unregulated amateur-built houses in a hurricane zone. I was last there to see it in early 2000s. I hope they&#8217;ve been able to find some compromise between safety and tradition. </p>
+ 
+                
+                <a class="mainbutton" href="http://thestartuptoolkit.com/blog/2017/01/half-built-houses/">Read More &#187;</a>
+                  
+           	</div>
+                  
+</li>                            
+					<!-- end post -->
+                    
+           	</ul><!-- end latest posts section-->
+            
+            <div class="clearfix"></div>
+
+					<div class="pagination"><span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://thestartuptoolkit.com/blog/page/2/'>2</a>
+<a class='page-numbers' href='http://thestartuptoolkit.com/blog/page/3/'>3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://thestartuptoolkit.com/blog/page/23/'>23</a>
+<a class="next page-numbers" href="http://thestartuptoolkit.com/blog/page/2/">&raquo;</a></div>
+
+					
+</div><!-- end #content-->
+		
+        <div id="sidebar" class="widgetable">
+               			
+					            <div class="flexslider widgetflexslider">
+            <ul class="slides">
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2013/08/everyone-is-lying-to-you-the-book/" title="Everyone is lying to you (the book)" >
+                         <img width="300" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/Mom-Test-Book-Cover-A5-300x260.png" class="attachment-w-slider wp-post-image" alt="Mom Test Book Cover - A5" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2013/08/everyone-is-lying-to-you-the-book/" title="Everyone is lying to you (the book)">Everyone is lying to you (the book)</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2013/07/4-dumb-and-1-good-way-ive-structured-my-worklife-balance/" title="4 dumb and 1 good way I&#8217;ve structured my work/life balance" >
+                         <img width="300" height="200" src="http://thestartuptoolkit.com/blog/wp-content/uploads/yc-pitch.jpg" class="attachment-w-slider wp-post-image" alt="Habit YC Pitch" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2013/07/4-dumb-and-1-good-way-ive-structured-my-worklife-balance/" title="4 dumb and 1 good way I&#8217;ve structured my work/life balance">4 dumb and 1 good way I&#8217;ve structured my work/life balance</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2012/05/how-to-do-and-what-to-expect-from-early-stage-customer-development-sales/" title="How to do (and what to expect from) early stage customer development &#038; sales" >
+                         <img width="300" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/Screen-Shot-2013-12-01-at-14.07.00-300x260.png" class="attachment-w-slider wp-post-image" alt="Screen Shot 2013-12-01 at 14.07.00" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2012/05/how-to-do-and-what-to-expect-from-early-stage-customer-development-sales/" title="How to do (and what to expect from) early stage customer development &#038; sales">How to do (and what to expect from) early stage customer development &#038; sales</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                    
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/12/how-to-make-failure-sustainable-and-career-entrepreneurship-possible/" title="How to make failure sustainable (and career entrepreneurship possible)">How to make failure sustainable (and career entrepreneurship possible)</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/12/abstraction-makes-us-stupid-at-business/" title="Abstraction makes us stupid at business" >
+                         <img width="260" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/This-guy-wants-his-windows-fixed-e1324986708980.jpg" class="attachment-w-slider wp-post-image" alt="This guy wants his windows fixed" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/12/abstraction-makes-us-stupid-at-business/" title="Abstraction makes us stupid at business">Abstraction makes us stupid at business</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/12/blogging-for-your-business-is-worth-it-even-if-you-get-no-traffic/" title="Blogging for your business is worth it even if you get no traffic" >
+                         <img width="249" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/blogging_owl1.jpg" class="attachment-w-slider wp-post-image" alt="Remember when we used to learn stuff like that from the nature channel? On the teevee?" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/12/blogging-for-your-business-is-worth-it-even-if-you-get-no-traffic/" title="Blogging for your business is worth it even if you get no traffic">Blogging for your business is worth it even if you get no traffic</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/12/the-problem-isnt-you-the-problem-is-the-problem/" title="The problem isn&#8217;t you. The problem is the problem." >
+                         <img width="202" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/Screen-shot-2011-12-06-at-12.33.28.png" class="attachment-w-slider wp-post-image" alt="The problem is the problem. Work it." title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/12/the-problem-isnt-you-the-problem-is-the-problem/" title="The problem isn&#8217;t you. The problem is the problem.">The problem isn&#8217;t you. The problem is the problem.</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/12/a-man-a-mop-a-year-and-an-app-joseph-hill-on-aeir-talk/" title="A man, a mop, a year, and an app &#8211; Joseph Hill on Aeir Talk" >
+                         <img width="260" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/Logo.png" class="attachment-w-slider wp-post-image" alt="Aeir Talk Logo" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/12/a-man-a-mop-a-year-and-an-app-joseph-hill-on-aeir-talk/" title="A man, a mop, a year, and an app &#8211; Joseph Hill on Aeir Talk">A man, a mop, a year, and an app &#8211; Joseph Hill on Aeir Talk</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/12/how-i-come-up-with-new-startup-ideas-in-4-steps/" title="How I come up with new startup ideas (in 4 steps)" >
+                         <img width="300" height="224" src="http://thestartuptoolkit.com/blog/wp-content/uploads/Screen-shot-2011-06-04-at-10.40.16.png" class="attachment-w-slider wp-post-image" alt="Brainstorm wall" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/12/how-i-come-up-with-new-startup-ideas-in-4-steps/" title="How I come up with new startup ideas (in 4 steps)">How I come up with new startup ideas (in 4 steps)</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/11/negotiate-like-you-dont-need-it-and-other-worthless-advice/" title="Negotiate like you don&#8217;t need it (and other worthless advice)" >
+                         <img width="260" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/cool-kid-e1322426445484.jpg" class="attachment-w-slider wp-post-image" alt="Cool kid" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/11/negotiate-like-you-dont-need-it-and-other-worthless-advice/" title="Negotiate like you don&#8217;t need it (and other worthless advice)">Negotiate like you don&#8217;t need it (and other worthless advice)</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/11/choose-wars-based-on-strengths-battles-based-on-weaknesses/" title="Choose wars based on strengths &#038; battles based on weaknesses" >
+                         <img width="256" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/sepia-king.jpg" class="attachment-w-slider wp-post-image" alt="King of War" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/11/choose-wars-based-on-strengths-battles-based-on-weaknesses/" title="Choose wars based on strengths &#038; battles based on weaknesses">Choose wars based on strengths &#038; battles based on weaknesses</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/11/making-decisions/" title="Making decisions" >
+                         <img width="300" height="177" src="http://thestartuptoolkit.com/blog/wp-content/uploads/800px-Repin_Cossacks.jpg" class="attachment-w-slider wp-post-image" alt="Making decisions" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/11/making-decisions/" title="Making decisions">Making decisions</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/11/youre-a-startup-its-okay-to-ask-about-money/" title="You&#8217;re a startup. It&#8217;s okay to ask about money." >
+                         <img width="270" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/Screen-shot-2011-11-03-at-19.38.23.png" class="attachment-w-slider wp-post-image" alt="Money shrub" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/11/youre-a-startup-its-okay-to-ask-about-money/" title="You&#8217;re a startup. It&#8217;s okay to ask about money.">You&#8217;re a startup. It&#8217;s okay to ask about money.</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/10/my-dad-taught-me-cashflow-with-a-soda-machine/" title="My dad taught me cashflow with a soda machine" >
+                         <img width="260" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/dad.jpg" class="attachment-w-slider wp-post-image" alt="Dad" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/10/my-dad-taught-me-cashflow-with-a-soda-machine/" title="My dad taught me cashflow with a soda machine">My dad taught me cashflow with a soda machine</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/10/trollope-on-shipping/" title="Trollope on shipping" >
+                         <img width="260" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/Anthony_Trollope_portrait1.jpeg" class="attachment-w-slider wp-post-image" alt="Anthony_Trollope_portrait" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/10/trollope-on-shipping/" title="Trollope on shipping">Trollope on shipping</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/10/its-the-ceos-job-to-email-the-first-1000-signups/" title="It&#8217;s the CEO&#8217;s job to email the first 1000 signups" >
+                         <img width="260" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/thank-you-generous1.jpg" class="attachment-w-slider wp-post-image" alt="thank you generous" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/10/its-the-ceos-job-to-email-the-first-1000-signups/" title="It&#8217;s the CEO&#8217;s job to email the first 1000 signups">It&#8217;s the CEO&#8217;s job to email the first 1000 signups</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/" title="The coffeeshop fallacy" >
+                         <img width="193" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/mop1.jpg" class="attachment-w-slider wp-post-image" alt="Mop" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/10/the_coffeeshop_fallacy/" title="The coffeeshop fallacy">The coffeeshop fallacy</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                    
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/10/getting-and-giving-good-startup-advice/" title="Getting and giving good startup advice">Getting and giving good startup advice</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/10/how-to-date-a-supermodel-or-get-dealflow-or-find-cofounders/" title="How to date a supermodel (or get dealflow or find cofounders)" >
+                         <img width="195" height="260" src="http://thestartuptoolkit.com/blog/wp-content/uploads/do-not-feed-the-supermodels.jpg" class="attachment-w-slider wp-post-image" alt="They&#039;re acting all sweet but really just want your peanuts." title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/10/how-to-date-a-supermodel-or-get-dealflow-or-find-cofounders/" title="How to date a supermodel (or get dealflow or find cofounders)">How to date a supermodel (or get dealflow or find cofounders)</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+			
+			<li class="body2">
+                    
+					                         <a href="http://thestartuptoolkit.com/blog/2011/10/the-mom-test-for-good-customer-feedback/" title="The mom test for good customer feedback" >
+                         <img width="300" height="199" src="http://thestartuptoolkit.com/blog/wp-content/uploads/mom-pumpkins.jpg" class="attachment-w-slider wp-post-image" alt="mom pumpkins" title="" />                         </a>
+                                        
+                    <div class="inpost">
+                    
+                    <h2 class="upperfont"><a href="http://thestartuptoolkit.com/blog/2011/10/the-mom-test-for-good-customer-feedback/" title="The mom test for good customer feedback">The mom test for good customer feedback</a></h2>
+                    
+                    </div>
+                        
+			</li>
+
+						</ul>
+            </div>
+
+		
+						<h2 class="widget"><span>Latest posts</span></h2>		<ul>
+					<li>
+				<a href="http://thestartuptoolkit.com/blog/2018/08/calendar-time-vs-clock-time-aka-why-should-i-quit-my-job-is-a-bad-question/">Calendar time vs clock time (AKA why &#8220;should I quit my job?&#8221; is a bad question)</a>
+						</li>
+					<li>
+				<a href="http://thestartuptoolkit.com/blog/2018/02/good-hours/">Good hours</a>
+						</li>
+					<li>
+				<a href="http://thestartuptoolkit.com/blog/2017/05/unconditionals/">Unconditionals</a>
+						</li>
+					<li>
+				<a href="http://thestartuptoolkit.com/blog/2017/02/high-stakes-learning/">High stakes learning</a>
+						</li>
+					<li>
+				<a href="http://thestartuptoolkit.com/blog/2017/02/the-business-part-of-social-lifestyle-businesses/">The business part of social &#038; lifestyle businesses</a>
+						</li>
+					<li>
+				<a href="http://thestartuptoolkit.com/blog/2017/01/losing-while-being-right-winning-while-being-wrong/">Losing while being right, winning while being wrong</a>
+						</li>
+					<li>
+				<a href="http://thestartuptoolkit.com/blog/2017/01/accidental-charlatans/">Accidental charlatans</a>
+						</li>
+					<li>
+				<a href="http://thestartuptoolkit.com/blog/2017/01/please-stop-doing-custdev-about-stuff-you-could-have-googled/">Please stop doing custdev about stuff you could have googled</a>
+						</li>
+					<li>
+				<a href="http://thestartuptoolkit.com/blog/2017/01/non-traditional-exits-taking-money-off-the-table-startup-to-startup-mergers-business-processes-equity-swapping/">Non-traditional exits: taking money off the table, startup-to-startup mergers, business processes, equity swapping</a>
+						</li>
+					<li>
+				<a href="http://thestartuptoolkit.com/blog/2017/01/half-built-houses/">Half-built houses and doing something people don&#8217;t get</a>
+						</li>
+				</ul>
+		<h2 class="widget"><span>Sign up for my dang rss</span></h2>			<div class="textwidget"><div style="width:100%;height:270px;position:relative;">
+<div class="rss_yay" style="position:relative;height:100px;width:100px;">
+    
+    <div class="rss_avatar_container" style="width:100px;height:100px;overflow:hidden;position:absolute;top:-100px;left:0;">
+        <img class="rss_avatar" style="position:absolute;" />
+    </div>
+
+    <a href="http://feeds.feedburner.com/TheStartupToolkit" title="Subscribe to my feed" rel="alternate" onclick="_gaq.push(['_trackEvent', 'Subscribe', 'RSS', 'Avatar sidebar']);" target="_blank" type="application/rss+xml" style="position:absolute;top:0;left:0;"><img class="rss_icon" src="http://blog.thestartuptoolkit.com/wp-content/uploads/rss_big.png" alt="" style="border:0;"/>
+    </a> 
+</div>
+
+<a href="http://twitter.com/robfitz/" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://twitter.com/robfitz/']);" style="position:absolute;left:110px;top:0;"><img src="http://blog.thestartuptoolkit.com/wp-content/uploads/twitter100.png" /></a>
+
+<div style="position:absolute;left:132px;top:102px;">
+<a href="https://twitter.com/robfitz" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://twitter.com/robfitz']);" class="twitter-follow-button" data-show-count="false">Follow @robfitz</a>
+</div>
+<script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+<div style="position:absolute;top:130px;left:0;width:100%;height:30px;">
+<form style="" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=TheStartupToolkit', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Or subscribe by email:</p><input type="text" style="float:left;width:150px" name="email"/><input type="hidden" value="TheStartupToolkit" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /></form>
+</div>
+</div>
+
+    <script>
+        function rss_yay_init(tileset_url) {
+
+            var distance = 150;
+
+            var avatar = $(".rss_avatar");
+            var icon = $(".rss_icon");
+
+            avatar.attr("src", tileset_url);
+            avatar.css("top", "100px");
+
+            icon.hover( function ( event ) {
+                   $(this).data("hover", true); 
+
+                    // get real excited
+                    avatar.css("left", "-200px").css("top", 0); 
+                },
+                function ( event ) {
+                   $(this).data("hover", false); 
+                });
+
+            icon.mousedown( function ( event ) {
+                // so dang excited you won't even believe it
+                avatar.css("left", "-300px").css("top", 0); 
+            });
+
+            $(document).mousemove( function ( event ) {
+
+                var icon = $(".rss_icon");
+
+                if (icon.data("hover")) {
+                    // if mouseover, then don't worry about moves
+                    // since the mouseover state trumps it
+                    return;
+                }
+
+                var dx = event.pageX - icon.offset().left;
+                var dy = event.pageY - icon.offset().top; 
+
+                if (dx > 0) {
+                    if (dx < icon.outerWidth()) {
+                        dx = 0;
+                    }
+                    else {
+                        dx -= icon.outerWidth();
+                    }
+                }
+                if (dy > 0) {
+                    if (dy < icon.outerHeight()) {
+                        dy = 0; 
+                    }
+                    else {
+                        dy -= icon.outerHeight();
+                    }
+                }
+
+                dx = Math.abs(dx);
+                dy = Math.abs(dy);
+
+                var d = distance + 1;
+
+                if (dx < distance || dy < distance) {
+                    d = Math.sqrt( dx * dx + dy * dy );
+                }
+
+                if ( d < distance) {
+                    if (d < distance / 5) {
+                        // getting excited 
+                        avatar.css("left", "-100px");
+                    }
+                    else {
+                        avatar.css("left", "0");
+                    }
+
+                    // how close to the target we're getting.
+                    // this will change the height of the image
+                    var percent = Math.floor(100 * d / distance);
+
+                    // not excited, but interested in what's going
+                    // on and gradually inching up
+                    avatar.css("top", percent + "px"); 
+                } 
+                else {
+                    avatar.css("left", "0").css("top", "100px");
+                }
+            }); 
+        }
+
+$(function() {
+rss_yay_init("http://blog.thestartuptoolkit.com/wp-content/uploads/rss_yay1.png");
+});
+    </script></div>
+		<h2 class="widget"><span>Stop screwing up custdev; buy my book</span></h2>			<div class="textwidget"><a href="http://momtestbook.com?ref=stk">
+<img src="http://thestartuptoolkit.com/blog/wp-content/uploads/momtextbox-cropped.jpg">
+"Wow. This book created a paradigm shift in my understanding of how to ask good questions."
+<br/>
+"Could not put it down"
+<br/>
+"Brilliant read, full of useful tips and insight. Go get yourself a copy!"
+<br/><br/>
+</a></div>
+		<h2 class="widget"><span>Archive</span></h2>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Select Month</option> 	<option value='http://thestartuptoolkit.com/blog/2018/08/'> August 2018 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2018/02/'> February 2018 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2017/05/'> May 2017 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2017/02/'> February 2017 &nbsp;(2)</option>
+	<option value='http://thestartuptoolkit.com/blog/2017/01/'> January 2017 &nbsp;(15)</option>
+	<option value='http://thestartuptoolkit.com/blog/2016/09/'> September 2016 &nbsp;(2)</option>
+	<option value='http://thestartuptoolkit.com/blog/2016/06/'> June 2016 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2015/05/'> May 2015 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2015/02/'> February 2015 &nbsp;(3)</option>
+	<option value='http://thestartuptoolkit.com/blog/2015/01/'> January 2015 &nbsp;(2)</option>
+	<option value='http://thestartuptoolkit.com/blog/2014/12/'> December 2014 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2014/09/'> September 2014 &nbsp;(3)</option>
+	<option value='http://thestartuptoolkit.com/blog/2014/08/'> August 2014 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2014/06/'> June 2014 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2014/04/'> April 2014 &nbsp;(8)</option>
+	<option value='http://thestartuptoolkit.com/blog/2013/12/'> December 2013 &nbsp;(5)</option>
+	<option value='http://thestartuptoolkit.com/blog/2013/08/'> August 2013 &nbsp;(11)</option>
+	<option value='http://thestartuptoolkit.com/blog/2013/07/'> July 2013 &nbsp;(2)</option>
+	<option value='http://thestartuptoolkit.com/blog/2013/06/'> June 2013 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2013/02/'> February 2013 &nbsp;(4)</option>
+	<option value='http://thestartuptoolkit.com/blog/2013/01/'> January 2013 &nbsp;(2)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/12/'> December 2012 &nbsp;(4)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/11/'> November 2012 &nbsp;(10)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/10/'> October 2012 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/09/'> September 2012 &nbsp;(4)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/08/'> August 2012 &nbsp;(7)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/07/'> July 2012 &nbsp;(1)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/06/'> June 2012 &nbsp;(3)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/05/'> May 2012 &nbsp;(7)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/04/'> April 2012 &nbsp;(3)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/03/'> March 2012 &nbsp;(2)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/02/'> February 2012 &nbsp;(6)</option>
+	<option value='http://thestartuptoolkit.com/blog/2012/01/'> January 2012 &nbsp;(2)</option>
+	<option value='http://thestartuptoolkit.com/blog/2011/12/'> December 2011 &nbsp;(20)</option>
+	<option value='http://thestartuptoolkit.com/blog/2011/11/'> November 2011 &nbsp;(18)</option>
+	<option value='http://thestartuptoolkit.com/blog/2011/10/'> October 2011 &nbsp;(22)</option>
+	<option value='http://thestartuptoolkit.com/blog/2011/09/'> September 2011 &nbsp;(17)</option>
+	<option value='http://thestartuptoolkit.com/blog/2011/08/'> August 2011 &nbsp;(5)</option>
+	<option value='http://thestartuptoolkit.com/blog/2011/06/'> June 2011 &nbsp;(4)</option>
+	<option value='http://thestartuptoolkit.com/blog/2011/05/'> May 2011 &nbsp;(2)</option>
+	<option value='http://thestartuptoolkit.com/blog/2011/03/'> March 2011 &nbsp;(11)</option>
+	<option value='http://thestartuptoolkit.com/blog/2010/11/'> November 2010 &nbsp;(2)</option>
+	<option value='http://thestartuptoolkit.com/blog/2010/09/'> September 2010 &nbsp;(4)</option>
+	<option value='http://thestartuptoolkit.com/blog/2010/08/'> August 2010 &nbsp;(5)</option>
+	<option value='http://thestartuptoolkit.com/blog/2010/07/'> July 2010 &nbsp;(1)</option>
+ </select>
+        </div><!-- #sidebar -->
+
+<div class="clearfix"></div>
+    
+</div>
+
+<!--
+<div id="footer" class="container ">
+
+	            <div class="threecol first"> 
+								            </div>
+            
+            
+            <div class="threecol">
+				                            </div>
+            
+            <div class="threecol"> 
+				                            </div>
+            
+            <div class="threecol last"> 
+				                            </div>    
+    <div class="clearfix"></div>
+    
+    <div class="hrlineB"></div>
+    
+    <div id="copyright">
+            
+        <div class="fl">
+            
+                        
+                <p>&copy; 2020 @robfitz&trade;</p>
+                
+                       
+        </div>
+        
+        <div class="fr">
+        
+                        
+                <p>Powered by <a href="http://www.wordpress.org">Wordpress</a>. Designed by <a href="http://themnific.com">Themnific&trade;</a></p>
+                
+                        
+        </div>
+        
+    </div> 
+    
+</div>
+-->
+    
+
+
+
+<div class="scrollTo_top">
+<a title="Scroll to top" href="#"></a>
+</div>
+<script type="text/javascript" src="http://s.skimresources.com/js/23577X822980.skimlinks.js"></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/functions/js/shortcodes.js?ver=3.7.31'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/js/jquery.flexslider-min.js?ver=3.7.31'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/js/jquery.flexslider.start.widget.js?ver=3.7.31'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/js/superfish.js?ver=3.7.31'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/js/jquery.hoverIntent.minified.js?ver=3.7.31'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/js/jquery.prettyPhoto.js?ver=3.7.31'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/js/jquery.flexslider.start.main.js?ver=3.7.31'></script>
+<script type='text/javascript' src='http://thestartuptoolkit.com/blog/wp-content/themes/blogist/js/ownScript.js?ver=3.7.31'></script>
+
+</body>
+</html>
+<!-- Dynamic page generated in 0.417 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2020-09-06 06:31:38 -->
+
+<!-- super cache -->
