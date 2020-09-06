@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<atom:icon>http://www.bungie.net/img/Bungie-Logo-PicLens-white.png</atom:icon>
+		<title>Bungie.Net Content Feed</title>
+		<link>http://www.bungie.net/en/rss/News?currentPage=1&amp;itemsPerPage=8&amp;category=all%2Ffavicon.ico</link>
+		<description>Data from the Bungie.Net News, Jobs, and other information</description>
+		<language>en</language>
+		<pubDate>Sun, 06 Sep 2020 18:48:32 GMT</pubDate>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		<generator>BlamDotNet RSS Generator</generator>
+		<webMaster>webmaster@bungie.net (Bungie WebMaster)</webMaster>
+		<atom:link rel="self" href="http://www.bungie.net/en/rss/News?currentPage=1&amp;itemsPerPage=8&amp;category=all/favicon.ico"></atom:link>
+			</channel>
+</rss>
